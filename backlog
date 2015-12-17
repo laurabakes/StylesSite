@@ -1,0 +1,30 @@
+backlog
+
+
+footer on needs editing as cuts of topof flower - trim the flower out
+Move abouts page into own section
+Move b2b pages into own section
+Move where to buy to own page
+
+refactor main body of page that is used on every page to reduce code reuse
+Done - move products page into own section
+
+Done- Add carausel arrows back in for about
+Done - Remove shading on carausel arrows
+Done -vertically align arrows on about page
+Done -stop arrows overflow on about page
+Done - Turn Faq to "frequently asked Questions"
+Done - caraousel indicators on shows page are sat over text
+
+Centralize headers on small screens
+Make headers on xs small screen slightly smaller
+b2b page is jumping around in height too much
+homepage vector icons look pixelated
+bubble on faq is too close to header text
+move faq's to own section?
+standardise gutter ing and left alignment etc...
+breadcrumbs
+styles logo fuzzy when enlarged
+find us map/tool
+map scroll when user is on it...?
+google analytics

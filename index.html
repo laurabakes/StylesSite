@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html ng-app="stylesApp">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Styles Farmhouse Ice Cream</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="images/favicon.ico">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- twitter and facebook styles -->
+		<link href="css/bootstrap_social.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+		<link href="fontawesome/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans">
+		<link rel="stylesheet" href="css/goudybookletter1911/stylesheet.css" type="text/css" charset="utf-8" />
+  </head>
+	<!-- #00ccff -->
+  <body ng-app="stylesApp" style="background-image: linear-gradient(180deg, #A9CDEF, #FFFFFF);">
+	<!-- menu for laptop -->
+	
+	  <!-- Fixed navbar -->
+	
+	
+	<div class="hidden-xs hidden-sm">
+
+	  <nav style="background-color:black; border:none;" class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+		<div class="navbar-collapse collapse">
+			<ul id="laptopMenuItemList" class="nav navbar-nav navbar-right">
+					<li><a href="index.html#home" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a></li>
+					<li><a href="index.html#products" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Products</a></li>
+					<li><a href="index.html#about" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">About</a></li>
+					<li><a href="buyStyles.html" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Where To Buy</a></li>
+					<li><a href="index.html#carousel-b2b" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Business</a></li>
+					<li><a href="index.html#gallery" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Gallery</a></li>
+					<li><a href="index.html#contact" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
+					<li> <a class="btn btn-social-icon" href="https://www.facebook.com/Styles-Farmhouse-Ice-Cream-194055370669659/" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in"> <span  class="fa fa-facebook"></span></a></li>
+					<li>  <a class="btn btn-social-icon" href="https://twitter.com/stylesicecream" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="fa fa-twitter"></span></a></li>
+			</ul>
+			</div>
+		</div>
+	    </nav>
+	</div>
+	
+	<!-- menus for mobile and tablet -->
+	<div class="hidden-md hidden-lg hidden-xl">
+		<div style="position:fixed; right:0;z-index:1000;" class="navbar-header"  >
+				  <button style="float:left; display:block;" id="navToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar navStripe"></span>
+					<span class="icon-bar navStripe"></span>
+					<span class="icon-bar navStripe"></span>
+				  </button>
+				</div>
+		<nav id="navbar" class="navbar navbar-default navbar-fixed-top nav-collapse collapse" data-toggle="collapse"  data-target=".nav-collapse" aria-expanded="false" style="background-color: black; border:none;left: inherit;bottom: 0;width: 200px;margin-bottom: 0;">
+			<div class="container" style="height:100%;">
+				
+			<div style="max-height:none;" >
+			  <ul id="navItemList" class="nav navbar-nav">
+				<li><a href="index.html#home" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a></li>
+				<li><a href="index.html#products" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Products</a></li>
+				<li><a href="index.html#about" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">About</a></li>
+				<li><a href="buyStyles.html" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Where To Buy</a></li>
+				<li><a href="index.html#carousel-b2b" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Business</a></li>
+				<li><a href="index.html#gallery" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Gallery</a></li>
+				<li><a href="index.html#contact" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
+				<li> <a class="btn btn-social-icon" href="https://www.facebook.com/Styles-Farmhouse-Ice-Cream-194055370669659/" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in"> <span  class="fa fa-facebook"></span></a></li>
+				<li>  <a class="btn btn-social-icon" href="https://twitter.com/stylesicecream" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="fa fa-twitter"></span></a></li>
+
+			</ul>
+			</div>
+			</div>
+		</nav>
+	</div>
+		<div    class="wrapper" ng-controller="GalleryController as model">
+			
+			<!-- home -->
+			<div id="home"  style="background:url(images/Clouds.png) repeat-x; min-height:200px; padding-top: 75px;  ">
+				<div class="container" style="padding-bottom:100px;">
+				<div class="row menuGridRow">
+							<div class="col-md-offset-3 col-md-6 menuGridItem"><img style="width:100%" src="images/stylesWhiteLogo.png" class="img-responsive"> </img></div>
+						</div>
+					
+				</div>
+	<!--
+				<div id="menu-grid" style="padding-top:50px;" class="jumbotron">
+						<div class="row menuGridRow">
+							<div class="col-xs-4 menuGridItem"><a href="#products" class="smoothScroll"><img src="images/menugrid/stylestub.png" class="img-responsive"></img><span>Products</span></a></div>
+							<div class="col-xs-4 menuGridItem"><a href="#about" class="smoothScroll"><img src="images/menugrid/farmhouse.jpg" class="img-responsive"></img><span>About</span></a></div>
+							<div class="col-xs-4 menuGridItem"><a href="#carousel-b2b" class="smoothScroll"><img src="images/menugrid/bike.jpg" class="img-responsive"></img><span>Business 2 Business</span></a></div>
+						</div>
+		
+				</div>
+		-->	</div>
+			
+			<!-- products -->
+			<div id="products"  class="section section-products sectionHolder" >
+				<div  class="section section-products sectionHolder" style="background: url(images/sections/stylestub.jpe) repeat-x; background-color:black;">
+								<div class="text-area" style="padding-top:150px; padding-bottom:80px;">
+											<div class="container" >
+												<div class="row">
+													<div class="col-xs-12 title" id="animationTest">
+														<h1>Products</h1>
+														
+														<div id="menu-grid" style="padding-top:50px;" class="jumbotron">
+															<div   class="col-xs-12 row menuGridRow">
+														
+																<p class="large">
+																	Check out our different product ranges...
+																</p>
+																</br>
+															</div>
+															<div class="row menuGridRow">
+																<div class="col-xs-4 menuGridItem"><a href="products.html#cowsIceCream"><img src="images/menugrid/cow.jpe" class="img-responsive"></img><span>Dairy Ice Cream</span></a></div>
+																<div class="col-xs-4 menuGridItem"><a href="products.html#sheepsIceCream" ><img src="images/menugrid/sheep.jpe" class="img-responsive"></img><span>Sheeps Ice Cream</span></a></div>
+																<div class="col-xs-4 menuGridItem"><a href="products.html#sorbet" ><img src="images/menugrid/fruit.jpe" class="img-responsive"></img><span>Sorbet</span></a></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+								</div>
+							</div>
+			</div>
+			
+			<!-- about -->
+			<div id="about" class="section section-story sectionHolder" >
+				<div id="about-story" class="sectionVisible" style="padding-bottom:75px;">
+					<div class="text-area" >
+						<div class="container" >
+							<div class="row">
+								<div class="col-xs-12 title" id="animationTest">
+									<div class="col-xs-6 col-sm-8 ">
+										<h1 style="color:#777">About Styles</h1>
+									</div>
+									<div class="col-xs-6 col-sm-4">
+										<div id="bubbleContainer">
+											<img id="speechBubble" src="images/speechBubble.png" />
+											<a id="meetTeamLink" class="speechBubbleLink" href="meetTeam.html#meet-team" >Meet the team?</a>
+										</div>
+									</div>
+									<div class="col-xs-12" style="color:#777;">
+												<p>
+												What makes Styles so special?
+													<ul>
+													  <br/>
+													  <li>The recipes perfected by Sue in her farmhouse kitchen, using only fresh whole jersey cow’s or sheep’s milk</li>
+													  <br/>
+													  <li>Fresh West Country cream and no artificial colours or ingredients</li>
+													  <br/>
+													  <li>The amazing Styles ‘family’ that work so hard to help the business continue to grow and improve</li>
+													</ul>
+												</p>
+												</br>
+												<div class="col-xs-offset-4 col-xs-4">
+													<a style="color:#777;" href="about.html" > Read more... </a>
+												</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--b2b -->
+			
+			<div id="carousel-b2b" class="section section-b2b sectionHolder"  >
+				  							<div class="text-area" >
+												<div class="container" >
+													<div class="row">
+														<div class="title col-xs-12" id="animationTest">
+															<h1>Business 2 Business</h1>
+															
+															<div id="menu-grid" style="padding-top:50px;" class="jumbotron">
+																<div   class="col-xs-12 row menuGridRow">
+															
+																	<p class="large">
+																		Lets talk business...
+																	</p>
+																	</br>
+																</div>
+																<div class="row menuGridRow">
+																	<div class="col-xs-6 menuGridItem"><a href="b2b.html#wholesale" ><img src="images/menugrid/cow.jpe" class="img-responsive"></img><span>Wholesale</span></a></div>
+																	<div class="col-xs-6 menuGridItem"><a href="b2b.html#shows" ><img src="images/menugrid/cow.jpe" class="img-responsive"></img><span>Shows</span></a></div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+			  </div>
+	
+			<!-- gallery-->
+			<div id="gallery"  class="section section-gallery sectionHolder" >
+				<div class="text-area">
+					<div class="container">
+						<div class="row">
+							<div class="title col-xs-12" id="animationTest">
+								<h1>The Styles Gallery</h1>
+							</div>
+						</div>
+					</div>
+				</div>								
+				<div class="container">
+					<div id="menu-grid"  class="jumbotron">
+						<div class="row menuGridRow">
+							<div ng-repeat="photo in model.photos" class="col-xs-4 col-sm-3  galleryGridItem">
+								<a class="fancybox" rel="group" href="{{photo.src}}"><img ng-src="{{photo.src}}" class="img-responsive"></img></a>
+							</div>
+							
+						</div>
+						</br>
+						<div class="col-xs-offset-4 col-xs-4">
+							<a  style="color:#fff;" href="gallery.html" > See more... </a>
+						</div>
+						
+					</div>
+					
+				</div>
+					
+											
+			</div>
+	
+			<!-- contact -->
+			<div id="contact" class="section section-contact sectionHolder" >
+						<div id="contactus" class="sectionVisible">
+							<div class="text-area">
+								<div class="container">
+									<div class="row">
+										<div class="title col-xs-6 col-sm-8" id="animationTest">
+										
+												<h1>Contact</h1>
+										</div>
+											<div class="col-xs-6 col-sm-4">
+												<div id="bubbleContainer">
+													<img id="speechBubble" src="images/speechBubbleYellow.png" />
+													<a id="faqLink" class="speechBubbleLink" href="#contact" onclick="toggleContact('faq');">Questions?</a>
+												</div>
+											</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="container" style="padding-bottom:40px; margin-left:-15px;">
+										<div id="contactInfo">
+											<div class="col-xs-10 col-xs-offset-1" style="padding-bottom:20px;">phone: 01984 640255</div>
+											<br/>
+										
+											<div class="col-xs-10 col-xs-offset-1 col-sm-3" style="color:black;"><span>info: </span><p><a href="mailto:info@styles-icecream.co.uk">info@styles-icecream.co.uk</a></p></div>
+											<div class="col-xs-10 col-xs-offset-1 col-sm-3" style="color:black;">	<span>events: </span><p><a href="mailto:events@styles-icecream.co.uk">events@styles-icecream.co.uk</a></p></div>
+											<div class="col-xs-10 col-xs-offset-1 col-sm-3" style="color:black;">	<span>wholesale: </span><p><a href="mailto:wholesale@styles-icecream.co.uk">wholesale@styles-icecream.co.uk</a></p></div>
+										</div>
+									
+							</div>
+						</div>
+								
+						
+						<!-- faq slide -->						
+						<div id="faq"  class="sectionHidden">
+							<div class="text-area" >
+								<div class="container" >
+									<div class="row">
+											<div class="title col-xs-6 col-sm-8" id="animationTest">
+											
+												<h1>Frequently Asked Questions</h1>
+											</div>
+											<div class="col-xs-6 col-sm-4">
+												<div id="bubbleContainer">
+													<img id="speechBubble" src="images/speechBubbleYellow.png" />
+													<a id="contactLink" class="speechBubbleLink" href="#contact" onclick="toggleContact('contact');">Contact?</a>
+												</div>
+											</div>
+											
+									</div>
+								</div>
+							</div>
+							<div class="container" style="padding-bottom:40px">
+										
+									<div  class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div ng-repeat="faq in model.faqs">
+									  <div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									      <h4 class="panel-title">
+										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#{{faq.id}}" aria-expanded="true" aria-controls="collapseOne">
+										  {{faq.question}}
+										</a>
+									      </h4>
+									    </div>
+									    <div id="{{faq.id}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+									      <div class="panel-body">
+										{{faq.answer}}
+									      </div>
+									    </div>
+									  </div>
+									</div>
+								</div>
+			
+							</div>
+						</div>
+
+			</div>
+			
+			
+		</div>
+	
+  <footer class="footer col-xs-3"> </footer>
+       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<script src="js/angular.min.js"></script>
+   <script src="js/smoothscroll.js"></script>
+   <script src="js/googlemaps.js"></script>
+   <script src="js/gallery.js"></script>
+<!-- End of SMOOTH SCROLL -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	
+
+
+function toggleAbout(sectionToShow){
+	if(sectionToShow =='team'){
+	 $('#about-story').removeClass('sectionVisible');
+	 $('#about-story').addClass('sectionHidden');
+	 
+	 $('#about-team').addClass('sectionVisible');
+	 $('#about-team').removeClass('sectionHidden');
+	}
+	else
+	{
+	$('#about-team').removeClass('sectionVisible');
+	 $('#about-team').addClass('sectionHidden');
+	 
+	 $('#about-story').addClass('sectionVisible');
+	 $('#about-story').removeClass('sectionHidden');
+	}
+	
+}
+
+
+
+function toggleContact(sectionToShow){
+	if(sectionToShow =='faq'){
+	 $('#contactus').removeClass('sectionVisible');
+	 $('#contactus').addClass('sectionHidden');
+	 
+	 $('#faq').addClass('sectionVisible');
+	 $('#faq').removeClass('sectionHidden');
+	}
+	else
+	{
+	$('#faq').removeClass('sectionVisible');
+	 $('#faq').addClass('sectionHidden');
+	 
+	 $('#contactus').addClass('sectionVisible');
+	 $('#contactus').removeClass('sectionHidden');
+	}
+	
+}
+
+</script>
+  <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtX2d1abeLNjwBj9lfZ3ATasoH86xO_64&callback=initMap">
+    </script>
+<!--
+GMKey
+ApiKey AIzaSyBtX2d1abeLNjwBj9lfZ3ATasoH86xO_64
+-->
