@@ -134,21 +134,25 @@ h1 {
 #meetTeamLink {
   	left:20px;
 	color:#fff;
+	text-decoration:underline;
 }
 
 #ourStoryLink{
   	left:20px;
 	color:#fff;
+	text-decoration:underline;
 }
 #faqLink{
   	left:17px;
 	color:#777;
 	top:15px;
+	text-decoration:underline;
 }
 
 #contactLink{
   	left:25px;
 	color:#777;
+	text-decoration:underline;
 }
 
 @media (min-width: 480px) {
