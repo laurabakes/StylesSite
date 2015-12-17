@@ -1,20 +1,4 @@
-/*
-angular.module('stylesApp', [])
-  .controller('GalleryController', function($scope) {
-	$scope.gallery =  [
-		{src:'images/gallery/9_cones.jpg'};
-		{src:'images/gallery/air_show.jpg'};
-		{src:'images/gallery/air_show2.jpg'};
-		{src:'images/gallery/an_icecream.jpg'};
-		{src:'images/gallery/article.jpg'};
-		{src:'images/gallery/band.jpg'};
-		{src:'images/gallery/best_farmer.jpg'};
-		{src:'images/gallery/Briddicott_harvest.png'};
-		{src:'images/gallery/Briddicottfarm.png'};
-		{src:'images/gallery/briddicottsheep.png'};
-		];
-  });
- */
+
  angular.module('stylesApp', [])
   .controller('GalleryController', function() {
 	var model = this;
@@ -44,7 +28,14 @@ angular.module('stylesApp', [])
 		faqs.push({id:'faqSeven', question: 'Why should I choose Styles?', answer: 'Our staff and customers are extremely important to us and we work hard to ensure we have a happy environment. We pride ourselves on ensuring that we provide the best service, making the best luxury farmhouse ice cream, and using the best locally sourced ingredients where possible. Being a family run farm we try hard to make sure that we are there to support our customers when needed and we like to make the process as straight forward as possible. We also offer other products including the full range of cones, tubs, spoons and all popular ice lollies from Walls, Franco’s and Treats to make the ordering process an easy one.  '});
 		faqs.push({id:'faqEight', question: 'Is my event too big/small for Styles Farmhouse Ice Cream?', answer: 'Here at Styles we firmly believe that no event is too big or too small. Throughout the year we are involved with in excess of 200 shows. These shows range from a village fete or country fair to large scale agricultural shows, steam fairs and music festivals, so please do not hesitate to get in touch if you are questioning whether Styles is right for you!'});
 	model.faqs = faqs;	
-	
+
+	model.team = [];
+		model.team.push({src:'images/team/david.jpg'});
+		model.team.push({src:'images/team/james_baker.jpg'});
+		model.team.push({src:'images/team/james_miles.jpg'});
+		model.team.push({src:'images/team/sue.jpg'});
+		model.team.push({src:'images/team/andre.jpg'});
+		
   });
   
   
