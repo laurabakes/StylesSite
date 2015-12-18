@@ -100,6 +100,9 @@ h1 {
 #products .carousel-inner{
 	height:52em;
 }
+.flavourList{
+	margin-top:50px;
+}
 
 #about-story .carousel-control.left{
 	background:none;
