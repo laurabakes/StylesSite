@@ -30,11 +30,9 @@
 	model.faqs = faqs;	
 
 	model.team = [];
-		model.team.push({src:'images/team/david.jpg'});
-		model.team.push({src:'images/team/james_baker.jpg'});
-		model.team.push({src:'images/team/james_miles.jpg'});
-		model.team.push({src:'images/team/sue.jpg'});
-		model.team.push({src:'images/team/andre.jpg'});
+		model.team.push({src:'images/team/david.jpg', job: 'Big boss man', blurb: 'Founder of Styles'});
+		model.team.push({src:'images/team/james_baker.jpg',job:'Sales', blurb:'Does something important with sales'});
+		model.team.push({src:'images/team/james_miles.jpg',job:'Retail', blurb:'Alot to do with retail'});
 		
   });
   
