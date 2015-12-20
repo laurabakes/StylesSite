@@ -8,10 +8,14 @@ styles logo fuzzy when enlarged
 
 me:
 
-about page - meet the team...
+move speech bubbles when screen is less than 300px 
+speech bubble not sitting correctly  on faq section
+
+
+there are some typos in the provided content - get mum to proof read all content for misktakes!
+
+search engine optimization
+google analytics
 
 refactor main body of page that is used on every page to reduce code reuse
-bubble on faq is too close to header text
 move faq's to own section?
-
-google analytics
