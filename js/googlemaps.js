@@ -61,7 +61,7 @@ function initMap() {
 	    title: stocker.name
 	  });
 	  marker.addListener('click', displayMarkerInfo);
-	  
+	   
   });
   
 }
