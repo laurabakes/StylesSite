@@ -93,12 +93,14 @@
 										</div>
 									</div>
 									<div  class="col-xs-12" style="padding-bottom:50px;">
-										<div style="background-color:#777;" ng-repeat="person in model.team" class="col-xs-4 col-sm-3  galleryGridItem">
+										<div ng-repeat="person in model.team" class="col-xs-4 col-sm-3  galleryGridItem">
 											<a class="fancybox" rel="group" href="{{person.src}}"><img ng-src="{{person.src}}" class="img-responsive"></img></a>
-											<p>{{person.name}}</p>
-											<span style="font-size:1em">{{person.job}}</span>
-											<p style="font-size:0.7em">{{person.blurb}}</p>
-											</br>
+											<div id="teamMemberInfo" >		
+												<p>{{person.name}}</p>
+												<span style="font-size:1em">{{person.job}}</span>
+												<p style="font-size:0.7em">{{person.blurb}}</p>
+											
+											</div>
 										</div>
 										
 									</div>								</div>
