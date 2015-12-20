@@ -33,13 +33,6 @@ stockists.push({lat:51.1384916, lng: -3.5425148, name: 'Budgens', phone:'01643 8
 stockists.push({lat:51.1799437, lng: -3.524039, name: 'Wooton Courtenay Village Store', phone:'', address: 'Wooton Courtenay, Minehead, Somerset, TA24 8RH' });
 
 
-  function displayMarkerInfo(){
-
-	 name = marker.name;
-	 phone = marker.phone;
-	 address = marker.address;			
-  }
-
 function initMap() {
   var myLatLng = {lat:51.145837, lng: -3.413300};
 
@@ -51,7 +44,6 @@ function initMap() {
   });
 
 
-  
   stockists.forEach(function(stocker){
 	  
 	  // Create a marker and set its position.
@@ -60,7 +52,23 @@ function initMap() {
 	    position: {lat:stocker.lat, lng:stocker.lng},
 	    title: stocker.name
 	  });
-	  marker.addListener('click', displayMarkerInfo);
+
+	var infowindow = new google.maps.InfoWindow({
+		content: '<div style="color:#777;" id="mapInfoContent">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<span style="font-size:1.5em;">'+
+	  stocker.name +
+	  '</span>'+
+      '<div style="font-size:1em;">'+
+      
+		'<p style="font-size:1em;"><b>'+stocker.phone +'</b></p></br>'+  stocker.address +
+	  '</div>'
+	  });
+
+	  marker.addListener('click', function() {
+		infowindow.open(map, marker);
+	  });
 	   
   });
   
