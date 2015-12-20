@@ -30,10 +30,12 @@
 	model.faqs = faqs;	
 
 	model.team = [];
-		model.team.push({src:'images/team/david.jpg', job: 'Big boss man', blurb: 'Founder of Styles'});
-		model.team.push({src:'images/team/james_baker.jpg',job:'Sales', blurb:'Does something important with sales'});
-		model.team.push({src:'images/team/james_miles.jpg',job:'Retail', blurb:'Alot to do with retail'});
-		
+		model.team.push({src:'images/team/david.jpg',  name:'David Baker', job: 'MD', blurb: 'Founder of Styles Ice-Cream'});
+		model.team.push({src:'images/team/james_baker.jpg',  name:'James Baker', job:'Sales', blurb:'Does something with sales'});
+		model.team.push({src:'images/team/james_miles.jpg', name:'James Miles', job:'Retail', blurb:'Alot to do with retail'});
+		model.team.push({src:'images/team/david.jpg',  name:'David Baker', job: 'MD', blurb: 'Founder of Styles Ice-Cream'});
+		model.team.push({src:'images/team/james_baker.jpg',  name:'James Baker', job:'Sales', blurb:'Does something with sales'});
+		model.team.push({src:'images/team/james_miles.jpg', name:'James Miles', job:'Retail', blurb:'Alot to do with retail'});
   });
   
   
