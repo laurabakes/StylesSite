@@ -225,7 +225,7 @@ h1 {
 }
 
 @media (min-width: 300px ) {    #meetTeamLink{left:40px; }}
-@media (min-width: 480px ) {    #meetTeamLink{top:20px; }}
+@media (min-width: 480px ) {    #meetTeamLink{top:28px; width:130px; left:20px;}}
 
 @media (min-width: 300px) {   #ourStoryLink{left:34px; }}
 
