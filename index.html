@@ -139,12 +139,12 @@
 										<h1 style="color:#777">About Styles</h1>
 									</div>
 									<div class="col-xs-6 col-sm-4">
-										<div id="bubbleContainer">
+										<div id="meetTeamBubbleContainer">
 											<img id="speechBubble" src="images/speechBubble.png" />
 											<a id="meetTeamLink" class="speechBubbleLink" href="meetTeam.html#meet-team" >Meet the team?</a>
 										</div>
 									</div>
-									<div class="col-xs-12" style="color:#777;">
+									<div id="aboutContent" class="col-xs-12" style="color:#777;">
 												<p>
 												What makes Styles so special?
 													<ul>
@@ -247,7 +247,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="container" style="padding-bottom:40px; margin-left:-15px;">
+							<div id="contactInfoContainer" class="container" >
 										<div id="contactInfo">
 											<div class="col-xs-10 col-xs-offset-1" style="padding-bottom:20px;">phone: 01984 640255</div>
 											<br/>
@@ -271,7 +271,7 @@
 												<h1>Questions</h1>
 											</div>
 											<div class="col-xs-6 col-sm-4">
-												<div id="bubbleContainer">
+												<div id="contactBubbleContainer">
 													<img id="speechBubbleContact" src="images/speechBubbleYellow.png" />
 													<a id="contactLink" class="speechBubbleLink" href="#contact" onclick="toggleContact('contact');">Contact?</a>
 												</div>
@@ -280,7 +280,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="container" style="padding-bottom:40px">
+							<div id="contactInfoContainer" class="container" >
 										
 									<div  class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 									<div ng-repeat="faq in model.faqs">
