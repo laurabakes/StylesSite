@@ -163,6 +163,11 @@ h1 {
 }
 
 
+@media (min-width: 1200px) {
+    #meetTeamBubbleContainer{ top:20px;}
+}
+
+
 @media (min-width: 480px) {
     #contactBubbleContainer{width: 150px; left:50px; top:20px;}
 }
