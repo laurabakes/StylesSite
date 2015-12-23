@@ -2,21 +2,20 @@
 <html ng-app="stylesApp">
 
     <head>
-        <meta charset="utf-8">
+   
+		<meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Styles Farmhouse Ice Cream</title>
-        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <title>Producers of luxury icecream for wholesale and retail</title>
+        <meta name="description" content="Find out about our ice-cream production for wholesale and retail">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="images/favicon.ico">
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<!-- twitter and facebook styles -->
 		<link href="css/bootstrap_social.css" rel="stylesheet">
 		<link href="css/main.css" rel="stylesheet">
 		<link href="fontawesome/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans">
 		<link rel="stylesheet" href="css/goudybookletter1911/stylesheet.css" type="text/css" charset="utf-8" />
 		<script type="text/javascript" src="js/googleAnalytics.js"></script>
-		
 		<!-- Google Analytics -->
 		<script>
 		
@@ -29,6 +28,12 @@
 		ga('send', 'pageview', location.pathname);
 		</script>
 		<!-- End Google Analytics -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script> 
+		$(function(){
+		  $("#headerContent").load("nav.html"); 
+		});
+		</script> 
   </head>
 	<!-- #00ccff -->
   <body ng-app="stylesApp" style="background-image: linear-gradient(180deg, #A9CDEF, #FFFFFF);">
@@ -36,20 +41,19 @@
 	
 	  <!-- Fixed navbar -->
 	
-	
 	<div class="hidden-xs hidden-sm">
 
 	  <nav style="background-color:black; border:none;" class="navbar navbar-default navbar-fixed-top">
 	      <div class="container">
 		<div class="navbar-collapse collapse">
 			<ul id="laptopMenuItemList" class="nav navbar-nav navbar-right">
-					<li><a href="index.html#home" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a></li>
-					<li><a href="index.html#products" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Products</a></li>
-					<li><a href="index.html#about" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">About</a></li>
+					<li><a href="#home" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a></li>
+					<li><a href="#products" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Products</a></li>
+					<li><a href="#about" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">About</a></li>
 					<li><a href="buyStyles.html" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Where To Buy</a></li>
-					<li><a href="index.html#carousel-b2b" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Business</a></li>
-					<li><a href="index.html#gallery" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Gallery</a></li>
-					<li><a href="index.html#contact" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
+					<li><a href="#carousel-b2b" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Business</a></li>
+					<li><a href="#gallery" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Gallery</a></li>
+					<li><a href="#contact" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
 					<li> <a class="btn btn-social-icon" href="https://www.facebook.com/Styles-Farmhouse-Ice-Cream-194055370669659/" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in"> <span  class="fa fa-facebook"></span></a></li>
 					<li>  <a class="btn btn-social-icon" href="https://twitter.com/stylesicecream" class="smoothScroll" data-scroll="true" data-toggle="collapse" data-target=".navbar-collapse.in"><span class="fa fa-twitter"></span></a></li>
 			</ul>
@@ -323,10 +327,11 @@
 			
 		</div>
 	
+	</body>
   <footer class="footer col-xs-3"> </footer>
        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
    
 <!-- Add mousewheel plugin (this is optional) -->
 <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>

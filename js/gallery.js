@@ -1,4 +1,10 @@
 
+var myApp = angular.module('myApp', []);
+
+function HeaderCtrl($scope) {
+    $scope.header = {name: "header.html", url: "header.html"};
+}
+
  angular.module('stylesApp', [])
   .controller('GalleryController', function() {
 	var model = this;
